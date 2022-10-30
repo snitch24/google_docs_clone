@@ -34,7 +34,7 @@ class AuthService {
           profilePic: user.photoUrl ?? '',
           uid: '',
           token: '',
-        );
+        ); 
 
         var res = await _client.post(
             Uri.parse('${URLConstants.host}/api/signup'),
